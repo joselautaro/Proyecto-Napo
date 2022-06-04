@@ -1,0 +1,26 @@
+@import "../partials/variables";
+
+
+
+header{
+    background-color: rgb(14, 39, 40);
+    nav{
+        display: flex;
+        justify-content: space-around;
+        padding: $relleno_header;
+        .logo{
+            color: aliceblue;
+            border: 2px solid black;
+            font-family: cursive;
+            padding: 5px;
+        }
+        a{
+            text-decoration: none;
+            font-size: $tamaño_de_letras_header;
+            color: rgb(187, 209, 227);
+            &:hover{
+                color: black;
+            } 
+        }
+    }
+}

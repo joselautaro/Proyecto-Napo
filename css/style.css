@@ -1,0 +1,27 @@
+header {
+  background-color: #0e2728; }
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px; }
+    header nav .logo {
+      color: aliceblue;
+      border: 2px solid black;
+      font-family: cursive;
+      padding: 5px; }
+    header nav a {
+      text-decoration: none;
+      font-size: 20px;
+      color: #bbd1e3; }
+      header nav a:hover {
+        color: black; }
+
+footer {
+  background-color: #0e2728; }
+  footer p {
+    color: aliceblue; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Verdana"; }
